@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ComponentsModule } from 'src/app/components/components.module';
 
 interface Componente {
   icon: string;
@@ -19,7 +19,7 @@ componentes: Componente[] = [
   redirectTo: '/action-sheet' 
 }, 
 { 
-  icon: 'logo-apple-appstore', 
+  icon: 'alert-circule-outline', 
   name: 'Alert', 
   redirectTo: '/alert'
  },
